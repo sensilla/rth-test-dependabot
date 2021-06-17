@@ -5,13 +5,13 @@ updates:
     directory: "/services/backend"
     schedule:
       interval: "weekly"
-    target-branch: "develop"
+    target-branch: "main"
     reviewers:
       - "raoul-thill"
   - package-ecosystem: "pip"
     directory: "/services/measurements"
     schedule:
       interval: "weekly"
-    target-branch: "develop"
+    target-branch: "main"
     reviewers:
       - "raoul-thill"
