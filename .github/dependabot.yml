@@ -5,7 +5,7 @@ updates:
     directory: "/services/backend"
     schedule:
       interval: "weekly"
-    target-branch: "develop"
+    target-branch: "main"
     ignore:
       -dependency-name: "django"
         update-type: ["version-update:semver-major"]
@@ -13,12 +13,10 @@ updates:
         update-type: ["version-update:semver-major"]
       -dependency-name: "graphene-django"
         update-type: ["version-update:semver-major"]
-    reviewers:
-      - "raoul-thill"
   - package-ecosystem: "pip"
     directory: "/services/measurements"
     schedule:
       interval: "weekly"
-    target-branch: "develop"
+    target-branch: "main"
     reviewers:
       - "raoul-thill"
