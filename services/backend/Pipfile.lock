@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "27a60263d1eb674d68533a2c37f9150ed756064715d289aa9148233c2e182c4c"
+            "sha256": "7e9343ef240066f4c67373806c9b4f608e52243e5772a1590c95a5b872cb7d58"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -237,11 +237,11 @@
         },
         "firebase-admin": {
             "hashes": [
-                "sha256:38a3dbe14523f3c0a7d128b601b14ac0672fb15fdd7b9cfcd6a1f76cb2667379",
-                "sha256:8a5f1eafb3bf9e46f2e58fcd0c26ec3eea423a53b04e42fee53e6c88619452a1"
+                "sha256:2e9341e2f01d31f8cde0c39a58e34ff0804dc4fa1d3cfe5a5c4043da13098fe0",
+                "sha256:6ea46130bb2585f09c74cff030670effd7cadcc1e060ae4c92a78ccefb4ffa26"
             ],
             "index": "pypi",
-            "version": "==3.1.0"
+            "version": "==3.2.1"
         },
         "google-api-core": {
             "extras": [
@@ -914,14 +914,6 @@
                 "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"
             ],
             "version": "==1.4.4"
-        },
-        "appnope": {
-            "hashes": [
-                "sha256:93aa393e9d6c54c5cd570ccadd8edad61ea0c4b9ea7a01409020c9aa019eb442",
-                "sha256:dd83cd4b5b460958838f6eb3000c660b1f9caf2a5b1de4264e941512f603258a"
-            ],
-            "markers": "sys_platform == 'darwin'",
-            "version": "==0.1.2"
         },
         "backcall": {
             "hashes": [
