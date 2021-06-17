@@ -8,11 +8,11 @@ updates:
     target-branch: "main"
     ignore:
       - dependency-name: "django"
-        update-type: ["version-update:semver-major"]
+        update-types: ["version-update:semver-major"]
       - dependency-name: "graphene"
-        update-type: ["version-update:semver-major"]
+        update-types: ["version-update:semver-major"]
       - dependency-name: "graphene-django"
-        update-type: ["version-update:semver-major"]
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: "pip"
     directory: "/services/measurements"
     schedule:
