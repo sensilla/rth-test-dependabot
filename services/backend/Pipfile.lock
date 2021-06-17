@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "27a60263d1eb674d68533a2c37f9150ed756064715d289aa9148233c2e182c4c"
+            "sha256": "4f9d5fa5885867106d3a1c66323a6c807aad75f9d9c869c1fa6f45db6213ba5a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -210,11 +210,11 @@
         },
         "django-stdimage": {
             "hashes": [
-                "sha256:c299ca8cbd686b3072d16c1d67b8782af239e4d4b0d46e09296be8fa68db66ff",
-                "sha256:d5bdda5abcb66b489952d04361fea9b2ec9839d21b94d3fdc6b6585fc2e44c14"
+                "sha256:95f2897f5a520f18e0d0097cc8cb1380db9127ead1abe66a5e048cd7bd4a2295",
+                "sha256:fb9d6bf86664873194fcc378193d81405aa4989eceadb4bcce6bb52588801934"
             ],
             "index": "pypi",
-            "version": "==5.1.1"
+            "version": "==5.3.0"
         },
         "django-storages": {
             "extras": [
@@ -587,13 +587,6 @@
             "index": "pypi",
             "version": "==6.2.2"
         },
-        "progressbar2": {
-            "hashes": [
-                "sha256:ef72be284e7f2b61ac0894b44165926f13f5d995b2bf3cd8a8dedc6224b255a7",
-                "sha256:fe2738e7ecb7df52ad76307fe610c460c52b50f5335fd26c3ab80ff7655ba1e0"
-            ],
-            "version": "==3.53.1"
-        },
         "promise": {
             "hashes": [
                 "sha256:dfd18337c523ba4b6a58801c164c1904a9d4d1b1747c7d5dbf45b693a49d93d0"
@@ -747,13 +740,6 @@
             ],
             "index": "pypi",
             "version": "==3.3.0"
-        },
-        "python-utils": {
-            "hashes": [
-                "sha256:18fbc1a1df9a9061e3059a48ebe5c8a66b654d688b0e3ecca8b339a7f168f208",
-                "sha256:352d5b1febeebf9b3cdb9f3c87a3b26ef22d3c9e274a8ec1e7048ecd2fac4349"
-            ],
-            "version": "==2.5.6"
         },
         "pytz": {
             "hashes": [
@@ -914,14 +900,6 @@
                 "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"
             ],
             "version": "==1.4.4"
-        },
-        "appnope": {
-            "hashes": [
-                "sha256:93aa393e9d6c54c5cd570ccadd8edad61ea0c4b9ea7a01409020c9aa019eb442",
-                "sha256:dd83cd4b5b460958838f6eb3000c660b1f9caf2a5b1de4264e941512f603258a"
-            ],
-            "markers": "sys_platform == 'darwin'",
-            "version": "==0.1.2"
         },
         "backcall": {
             "hashes": [
