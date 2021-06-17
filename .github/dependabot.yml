@@ -7,16 +7,15 @@ updates:
       interval: "weekly"
     target-branch: "main"
     ignore:
-      - dependency-name: "django"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "graphene"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "graphene-django"
+      - dependency-name: "*"
         update-types: ["version-update:semver-major"]
   - package-ecosystem: "pip"
     directory: "/services/measurements"
     schedule:
       interval: "weekly"
     target-branch: "main"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     reviewers:
       - "raoul-thill"
