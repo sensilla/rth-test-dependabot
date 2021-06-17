@@ -9,35 +9,7 @@ updates:
     reviewers:
       - "raoul-thill"
   - package-ecosystem: "pip"
-    directory: "/services/api-abstraction"
-    schedule:
-      interval: "weekly"
-    target-branch: "develop"
-    reviewers:
-      - "raoul-thill"
-  - package-ecosystem: "pip"
     directory: "/services/measurements"
-    schedule:
-      interval: "weekly"
-    target-branch: "develop"
-    reviewers:
-      - "raoul-thill"
-  - package-ecosystem: "pip"
-    directory: "/services/tsd"
-    schedule:
-      interval: "weekly"
-    target-branch: "develop"
-    reviewers:
-      - "raoul-thill"
-  - package-ecosystem: "npm"
-    directory: "/frontends/vdashboard"
-    schedule:
-      interval: "weekly"
-    target-branch: "develop"
-    reviewers:
-      - "simon-levente"
-  - package-ecosystem: "github-actions"
-    directory: "/"
     schedule:
       interval: "weekly"
     target-branch: "develop"
