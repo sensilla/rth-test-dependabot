@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "27a60263d1eb674d68533a2c37f9150ed756064715d289aa9148233c2e182c4c"
+            "sha256": "ef99e23d0b39d355cc04d014de8905a4452d8772e94829f8ec64683bee42d506"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -147,11 +147,11 @@
                 "sparkpost"
             ],
             "hashes": [
-                "sha256:caba487937d14d7d6ff06551db4e4bfb3e45eff892f9911abd7a214716b65be5",
-                "sha256:fde346365937de91feee4451cbbf416f4af841ccc5d136c5fdfcb983827703c1"
+                "sha256:2e8307e84f0a12f9283469017094a8246db9a0fc608ac17dd1027ee011ece986",
+                "sha256:671a338de43b8e414d48c6d16aac1df54d2f24f916e1073f9f60aef5acffaf89"
             ],
             "index": "pypi",
-            "version": "==8.3"
+            "version": "==8.4"
         },
         "django-cors-headers": {
             "hashes": [
@@ -914,14 +914,6 @@
                 "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"
             ],
             "version": "==1.4.4"
-        },
-        "appnope": {
-            "hashes": [
-                "sha256:93aa393e9d6c54c5cd570ccadd8edad61ea0c4b9ea7a01409020c9aa019eb442",
-                "sha256:dd83cd4b5b460958838f6eb3000c660b1f9caf2a5b1de4264e941512f603258a"
-            ],
-            "markers": "sys_platform == 'darwin'",
-            "version": "==0.1.2"
         },
         "backcall": {
             "hashes": [
