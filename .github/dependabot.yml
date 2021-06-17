@@ -6,6 +6,13 @@ updates:
     schedule:
       interval: "weekly"
     target-branch: "develop"
+    ignore:
+      -dependency-name: "django"
+        update-type: ["version-update:semver-major"]
+      -dependency-name: "graphene"
+        update-type: ["version-update:semver-major"]
+      -dependency-name: "graphene-django"
+        update-type: ["version-update:semver-major"]
     reviewers:
       - "raoul-thill"
   - package-ecosystem: "pip"
