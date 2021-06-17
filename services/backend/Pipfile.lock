@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "27a60263d1eb674d68533a2c37f9150ed756064715d289aa9148233c2e182c4c"
+            "sha256": "d7b5a330bffe3ae84c68aea21fe5f5e188ab8d1de02f48979da904558aeaeccb"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -22,6 +22,14 @@
                 "sha256:d10a4bf949f619f719b227ef5386e31f49a2b6d453004b21f02661ccc8670c7b"
             ],
             "version": "==7.0.0"
+        },
+        "asgiref": {
+            "hashes": [
+                "sha256:92906c611ce6c967347bbfea733f13d6313901d54dcca88195eaeb52b2a8e8ee",
+                "sha256:d1216dfbdfb63826470995d31caed36225dcaf34f182e0fa257a4dd9e86f1b78"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.3.4"
         },
         "auth0-python": {
             "hashes": [
@@ -136,11 +144,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:db2214db1c99017cbd971e58824e6f424375154fe358afc30e976f5b99fc6060",
-                "sha256:e831105edb153af1324de44d06091ca75520a227456387dda4a47d2f1cc2731a"
+                "sha256:66c9d8db8cc6fe938a28b7887c1596e42d522e27618562517cc8929eb7e7f296",
+                "sha256:ea735cbbbb3b2fba6d4da4784a0043d84c67c92f1fdf15ad6db69900e792c10f"
             ],
             "index": "pypi",
-            "version": "==2.2.22"
+            "version": "==3.2.4"
         },
         "django-anymail": {
             "extras": [
@@ -914,14 +922,6 @@
                 "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"
             ],
             "version": "==1.4.4"
-        },
-        "appnope": {
-            "hashes": [
-                "sha256:93aa393e9d6c54c5cd570ccadd8edad61ea0c4b9ea7a01409020c9aa019eb442",
-                "sha256:dd83cd4b5b460958838f6eb3000c660b1f9caf2a5b1de4264e941512f603258a"
-            ],
-            "markers": "sys_platform == 'darwin'",
-            "version": "==0.1.2"
         },
         "backcall": {
             "hashes": [
